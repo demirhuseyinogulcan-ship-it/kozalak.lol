@@ -24,9 +24,16 @@ export function localizedHref(locale: Locale, hash = "") {
 export const dictionaries = {
   en: {
     metadata: {
-      title: "Kozalak AI",
+      title: "Kozalak AI | AI-Powered Pine Cone Device",
       description:
-        "A sealed local intelligence device built around a natural pine cone interface.",
+        "Kozalak AI is an AI-powered pine cone device with a sealed local intelligence base, voice interface, and physical room presence.",
+      keywords: [
+        "Kozalak AI",
+        "AI-powered pine cone",
+        "local AI device",
+        "botanical AI interface",
+        "physical AI object",
+      ],
     },
     nav: {
       logoAlt: "Kozalak AI mark",
@@ -48,7 +55,7 @@ export const dictionaries = {
     product: {
       eyebrow: "Product system",
       title: "A natural interface for synthetic thought.",
-      body: "The pine cone is not decoration. It is the visible identity of a local intelligence device: quiet, sealed, and intentionally physical.",
+      body: "The pine cone is not decoration. It is the visible identity of an AI-powered pine cone device: quiet, sealed, and intentionally physical.",
       features: [
         {
           title: "Local AI Core",
@@ -171,9 +178,16 @@ export const dictionaries = {
   },
   tr: {
     metadata: {
-      title: "Kozalak AI",
+      title: "Kozalak AI | Yapay Zeka Destekli Kozalak",
       description:
-        "Doğal bir kozalak arayüzü etrafında tasarlanmış, kapalı lokal zeka cihazı.",
+        "Kozalak AI, doğal kozalak arayüzü ve lokal işlem tabanıyla tasarlanan yapay zeka destekli kozalak cihazıdır.",
+      keywords: [
+        "Kozalak AI",
+        "AI destekli kozalak",
+        "yapay zeka destekli kozalak",
+        "lokal yapay zeka cihazı",
+        "akıllı kozalak",
+      ],
     },
     nav: {
       logoAlt: "Kozalak AI işareti",
@@ -187,15 +201,15 @@ export const dictionaries = {
     },
     hero: {
       eyebrow: "Lokal botanik zeka cihazı",
-      title: "Zeka, doğanın içinde mühürlendi.",
-      body: "Kozalak AI; doğal kozalak arayüzü, sesli etkileşim ve kapalı titanyum tabanı etrafında tasarlanmış bağımsız bir lokal zeka objesidir.",
+      title: "Yapay zeka destekli kozalak.",
+      body: "Kozalak AI; doğal kozalak arayüzü, sesli etkileşim ve kapalı titanyum tabanı etrafında tasarlanmış bağımsız bir AI destekli kozalak cihazıdır.",
       primary: "Cihazı rezerve et",
       secondary: "Donanımı gör",
     },
     product: {
       eyebrow: "Ürün sistemi",
       title: "Sentetik düşünce için doğal bir arayüz.",
-      body: "Kozalak dekor değildir. Sessiz, kapalı ve bilinçli olarak fiziksel kalmak isteyen lokal bir zeka cihazının görünen kimliğidir.",
+      body: "Kozalak dekor değildir. Yapay zeka destekli kozalak formunda, sessiz, kapalı ve bilinçli olarak fiziksel kalmak isteyen lokal bir zeka cihazının görünen kimliğidir.",
       features: [
         {
           title: "Lokal AI Çekirdeği",
@@ -318,9 +332,16 @@ export const dictionaries = {
   },
   ja: {
     metadata: {
-      title: "Kozalak AI",
+      title: "Kozalak AI | AI搭載松ぼっくりデバイス",
       description:
-        "自然の松ぼっくりインターフェースを中心に設計された、密閉型ローカル知能デバイス。",
+        "Kozalak AIは、自然の松ぼっくりインターフェースと密閉型ローカル処理ベースを備えたAI搭載松ぼっくりデバイスです。",
+      keywords: [
+        "Kozalak AI",
+        "AI搭載松ぼっくり",
+        "ローカルAIデバイス",
+        "植物インターフェース",
+        "物理AIオブジェクト",
+      ],
     },
     nav: {
       logoAlt: "Kozalak AI マーク",
@@ -342,7 +363,7 @@ export const dictionaries = {
     product: {
       eyebrow: "製品システム",
       title: "合成思考のための自然なインターフェース。",
-      body: "松ぼっくりは装飾ではありません。静かで、密閉され、意図的に物理的であるローカル知能デバイスの可視化されたアイデンティティです。",
+      body: "松ぼっくりは装飾ではありません。静かで、密閉され、意図的に物理的であるAI搭載松ぼっくりデバイスの可視化されたアイデンティティです。",
       features: [
         {
           title: "ローカルAIコア",

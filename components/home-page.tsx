@@ -6,6 +6,7 @@ import Footer from "@/components/footer";
 import ProductStory from "@/components/product-story";
 import ProductGallery from "@/components/product-gallery";
 import TeamSection from "@/components/team-section";
+import StructuredData from "@/components/structured-data";
 import type { Dictionary, Locale } from "@/lib/i18n";
 
 export default function HomePage({
@@ -17,6 +18,7 @@ export default function HomePage({
 }) {
   return (
     <main className="flex min-h-dvh flex-col">
+      <StructuredData dictionary={dictionary} locale={locale} />
       <Hero copy={dictionary.hero} locale={locale} />
       <ProductStory copy={dictionary.product} />
       <ProductGallery copy={dictionary.gallery} />

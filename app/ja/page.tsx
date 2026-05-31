@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: dictionaries.ja.metadata.title,
   description: dictionaries.ja.metadata.description,
+  keywords: [...dictionaries.ja.metadata.keywords],
   alternates: {
     canonical: localePaths.ja,
     languages: {
@@ -28,6 +29,13 @@ export const metadata: Metadata = {
     siteName: "Kozalak AI",
     locale: "ja_JP",
     type: "website",
+    images: ["/opengraph-image.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: dictionaries.ja.metadata.title,
+    description: dictionaries.ja.metadata.description,
+    images: ["/opengraph-image.png"],
   },
 };
 

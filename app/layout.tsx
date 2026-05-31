@@ -23,6 +23,15 @@ export const metadata: Metadata = {
   title: "Kozalak AI",
   description:
     "A sealed local intelligence device built around a natural pine cone interface.",
+  applicationName: "Kozalak AI",
+  manifest: "/manifest.webmanifest",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "64x64" },
+      { url: "/icon.png", type: "image/png", sizes: "512x512" },
+    ],
+    apple: [{ url: "/apple-icon.png", type: "image/png", sizes: "180x180" }],
+  },
 };
 
 export default function RootLayout({
