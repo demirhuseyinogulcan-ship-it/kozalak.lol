@@ -1,0 +1,36 @@
+import type { Metadata } from "next";
+import HomePage from "@/components/home-page";
+import {
+  absoluteLocaleUrl,
+  dictionaries,
+  getDictionary,
+  localePaths,
+  siteUrl,
+} from "@/lib/i18n";
+
+export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
+  title: dictionaries.tr.metadata.title,
+  description: dictionaries.tr.metadata.description,
+  alternates: {
+    canonical: localePaths.tr,
+    languages: {
+      en: localePaths.en,
+      tr: localePaths.tr,
+      ja: localePaths.ja,
+      "x-default": localePaths.en,
+    },
+  },
+  openGraph: {
+    title: dictionaries.tr.metadata.title,
+    description: dictionaries.tr.metadata.description,
+    url: absoluteLocaleUrl("tr"),
+    siteName: "Kozalak AI",
+    locale: "tr_TR",
+    type: "website",
+  },
+};
+
+export default function TurkishHome() {
+  return <HomePage dictionary={getDictionary("tr")} locale="tr" />;
+}
