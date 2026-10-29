@@ -2,7 +2,7 @@
 
 Launch site for Kozalak AI, a product concept: a natural pine cone becomes the physical interface of a local-first AI device. The site tells the product story, shows the hardware and explains how the device fits into a home, in English, Japanese and Turkish.
 
-**Live:** [kozalak.lol](https://kozalak.lol) · [kozalak-ai.pages.dev](https://kozalak-ai.pages.dev) (Japanese: [/ja](https://kozalak-ai.pages.dev/ja), Turkish: [/tr](https://kozalak-ai.pages.dev/tr))
+**Live:** [kozalak.lol](https://kozalak.lol) (Japanese: [/ja](https://kozalak.lol/ja), Turkish: [/tr](https://kozalak.lol/tr))
 
 ![Kozalak AI home page](docs/screenshot.jpg)
 
