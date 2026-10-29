@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import { localizedHref } from "@/lib/i18n";
+import { CommitiusCredit } from "@/components/commitius-credit";
 
 export default function Footer({
   copy,
@@ -45,6 +46,7 @@ export default function Footer({
         <div className="flex flex-col justify-between gap-2 border-t border-border pt-6 text-sm text-muted-foreground sm:flex-row">
           <span>© {year} Kozalak AI. {copy.rights}</span>
           <span>{copy.line}</span>
+          <CommitiusCredit />
         </div>
       </div>
     </footer>
